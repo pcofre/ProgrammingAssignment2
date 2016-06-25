@@ -41,7 +41,7 @@ makeCacheMatrix <- function(x = numeric()) {
 }
 
 ## Calculate the inverse of the special matrix created with the above
-## function, reusing cached result if it is available
+## function, reusing cached matrix if available
 
 cacheSolve <- function(y, ...) {
 
